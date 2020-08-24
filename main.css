@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.chathead{
+    height: 60vh;
+    width: 81vw;
+    border: 2px solid black;
+    overflow: scroll;
+    -ms-overflow-style: none;
+}
+.chathead::-webkit-scrollbar {
+    display: none;
+}
+
+.message{ 
+    width:75vw;
+}   
+.username{
+    color: blue;
+} 
+.bot{
+    color: green;
+} 
